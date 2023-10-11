@@ -219,8 +219,24 @@ body{
         }
 
         & > div:nth-child(3) {
-            display:flex ;
+            margin-left: 5rem;
+            display:flex;
+            flex-direction:column ;
+            justify-content: space-between;
+           
+                & a i{
+                    color: #fff;
+                    font-size: 2.5rem;
+                    &:hover{
+                        color: blueviolet;
+                    }
+                }
+                
             
+            & p{
+                font-size: 14px;
+                color: white;
+            }
 
     }
 }
