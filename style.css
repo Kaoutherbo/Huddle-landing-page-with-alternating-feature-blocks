@@ -180,15 +180,49 @@ body{
     & > footer{
         position: relative;
         margin-top: 13rem;
-        padding: 10rem 4rem 4rem 4rem;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        padding:5.5rem;
         background-color: var(--Very-Dark-Cyan);
 
-        & > div:nth-child(1){
-            &  > img{
-                color: white;
+        & .footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        &  div:nth-child(1){
+            & div{
+                display: flex;
+                gap: 25px;
+                align-items: flex-start;
+                margin: 1.2rem 0;
+                & p{
+                    color: white;
+                }
             }
         }
+        
+        & > div:nth-child(2){
+            margin-left: 5rem;
+            display: flex;
+            gap: 5rem;
+            &  .first ,& .second{
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            & > p a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+            }
+            }
+        }
+
+        & > div:nth-child(3) {
+            display:flex ;
+            
+
     }
+}
+}
 }
