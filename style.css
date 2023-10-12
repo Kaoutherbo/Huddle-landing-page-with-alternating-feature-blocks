@@ -223,12 +223,17 @@ body{
             display:flex;
             flex-direction:column ;
             justify-content: space-between;
-           
+            margin-top: 10px;
                 & a i{
                     color: #fff;
-                    font-size: 2.5rem;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    padding: 5px;
+                    font-size: 1.2rem;
+                    margin-left: 10px;
                     &:hover{
-                        color: blueviolet;
+                        color:var(--Pink);
+                        border: 1px solid var(--Pink);
                     }
                 }
                 
@@ -241,4 +246,12 @@ body{
     }
 }
 }
+}
+
+
+@media (max-width:650px) {
+    body{
+        
+
+    }
 }
