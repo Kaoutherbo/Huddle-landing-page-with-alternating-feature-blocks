@@ -321,7 +321,7 @@ body{
             display: flex;
             flex-direction: column;
 
-            & div:nth-child(2){
+            & > div:nth-child(2){
                 margin-left: 0;
                 flex-direction: column;
                 gap: 10px;
