@@ -321,7 +321,7 @@ body{
             display: flex;
             flex-direction: column;
 
-            & > div:nth-child(2){
+            & > #links{
                 margin-left: 0;
                 flex-direction: column;
                 gap: 10px;
